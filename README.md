@@ -1,2 +1,2 @@
-# GD-Net
-Deep Efficient Spectral Reconstruction from Single RGB Images
+# AGD-Net
+Deep Amended gradient descent for Spectral Reconstruction from Single RGB Images
