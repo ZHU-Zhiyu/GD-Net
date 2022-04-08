@@ -1,5 +1,4 @@
 import torch
-from SpaNet import SpaNet
 from SpeNet import SpeNet,recon_net
 import argparse
 import torch.nn.functional as F
@@ -92,7 +91,6 @@ if __name__ == '__main__':
     parse.add_argument('--local_rank', type=int, default=0)
     setup_seed(50)
     factor_lr = 1
-    # spanet = SpaNet().cuda()
     opt = parse.parse_args()
     # torch.cuda.set_device(opt.local_rank)
     torch.cuda.set_device(opt.local_rank)
